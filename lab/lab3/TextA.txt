@@ -1,4 +1,3 @@
-Alice everyday goes to library to study
-Perhaps the decline of this country has already started
-The management of your company has executed its duties excellently
-They have lost thousands of jobs to Asia, South America, and Mexico
+In mathematics and statistics, the arithmetic mean, 
+or simply the mean or the average, is the sum of a collection of 
+numbers divided by the count of numbers in the collection.

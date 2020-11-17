@@ -3,5 +3,5 @@
 fname=$1
 start=$2
 end=$3
-sed -n $start,$end\p $fname     #sed -n p textfile use to print data that store in patter space
+sed [ $start-$end ]/p "$fname"  #sed -n p textfile use to print data that store in patter space
 exit

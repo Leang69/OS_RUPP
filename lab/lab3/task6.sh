@@ -1,11 +1,10 @@
 #!/bin/bash
-#./task6.sh [filename]
-ans=$(ls | grep -i "$1")
-if [ ans != "" ]
+#./task6.sh  [word] [filename]
+grep -w "$1" "$2"  #grep -w get one line that contain $1
+if [ $? == "0" ]
 then
-    echo $ans
-    echo $1 " is in this directory"
+    echo $1 " is in this list"
 else
-    echo $1 " isn't in this directory"
+    echo $1 " isn't in this list"
 fi
 exit
